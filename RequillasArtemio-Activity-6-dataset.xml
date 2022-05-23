@@ -40,5 +40,13 @@
 <subgroup>30-59 Years</subgroup> <time>88</time> <start_time>9/1/2021</start_time> <end_time>9/7/2021</end_time> <value>24</value> <measure>percent</measure> </row>
 <row _id="row 7">
 <figure>3a</figure> <setting>ED</setting> <indicator>Total Screenings</indicator> <group>Age</group>
-<subgroup>60+ Years</subgroup> <time>31</time> <start_time>7/29/2020</start_time> <end_time>8/4/2020</end_time> <value>13</value> <measure>percent</measure> </row> </row> </response>
-
+<subgroup>60+ Years</subgroup> <time>31</time> <start_time>7/29/2020</start_time> <end_time>8/4/2020</end_time> <value>13</value> <measure>percent</measure> </row>
+<row _id="row 8">
+<figure>8</figure> <setting>IP</setting> <indicator>Confirmed COVID-19 with pneumonia</indicator> <group>Sex</group>
+<subgroup>Female</subgroup> <time>58</time> <start_time>2/3/2021</start_time> <end_time>2/9/2021</end_time> <value>65</value> <measure>percent</measure> </row>
+<row _id="row 9">
+<figure>8</figure> <setting>IP</setting> <indicator>Confirmed COVID-19 with pneumonia</indicator> <group>Sex</group>
+<subgroup>Male</subgroup> <time>54</time> <start_time>1/6/2021</start_time> <end_time>1/12/2021</end_time> <value>0.1</value> <measure>percent</measure> </row> 
+<row _id="row 10">
+<figure>8</figure> <setting>IP</setting> <indicator>Confirmed COVID-19 with pneumonia</indicator> <group>Age</group>
+<subgroup>60+ Years</subgroup> <time>86</time> <start_time>8/18/2021</start_time> <end_time>8/24/2021</end_time> <value>80</value> <measure>percent</measure> </row> </row> </response>
