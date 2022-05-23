@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE response [
+<!ELEMENT response (row)>
+<!ELEMENT sequence (figure, setting, indicator, group, subgroup, time, start_time, end_time, value, measure)>
+
+<!ELEMENT figure (#PCDATA)>
+<!ELEMENT setting (#PCDATA)>
+<!ELEMENT indicator (#PCDATA)>
+<!ELEMENT group (#PCDATA)>
+<!ELEMENT subgroup (#PCDATA)>
+<!ELEMENT time (#PCDATA)>
+<!ELEMENT start_time (#PCDATA)>
+<!ELEMENT end_time (#PCDATA)>
+<!ELEMENT value (#PCDATA)>
+<!ELEMENT measure (#PCDATA)>
+
+<!ATTLIST sequence row CDATA #REQUIRED>
+
+]>
+
+<response> <row>
+<row _id="row 1">
+<figure>1</figure> <setting>ED</setting> <indicator>Confirmed COVID-19</indicator> <group>Age</group>
+<subgroup>0-4 Years</subgroup> <time>75</time> <start_time>6/2/2021</start_time> <end_time>6/8/2021</end_time> <value>0.6</value> <measure>percent</measure> </row>
+<row _id="row 2">
+<figure>2</figure> <setting>IP</setting> <indicator>Confirmed COVID-19</indicator> <group>Urban-rural</group>
+<subgroup>Rural areas</subgroup> <time>62</time> <start_time>3/3/2021</start_time> <end_time>3/9/2021</end_time> <value>6.8</value> <measure>percent</measure> </row>
+<row _id="row 3">
+<figure>2</figure> <setting>ip</setting> <indicator>Confirmed COVID-19</indicator> <group>Urban-rural</group>
+<subgroup>Rural areas</subgroup> <time>75</time> <start_time>6/2/2021</start_time> <end_time>6/8/2021</end_time> <value>4</value> <measure>percent</measure> </row>
+<row _id="row 4">
+<figure>3a</figure> <setting>ED</setting> <indicator>Total Screenings</indicator> <group>Age</group>
+<subgroup>0-29 Years</subgroup> <time>14</time> <start_time>4/1/2020</start_time> <end_time>4/7/2020</end_time> <value>5.5</value> <measure>percent</measure> </row>
+<row _id="row 5">
+<figure>3a</figure> <setting>ED</setting> <indicator>Total Screenings</indicator> <group>Age</group>
+<subgroup>0-29 Years</subgroup> <time>27</time> <start_time>7/1/2020</start_time> <end_time>7/7/2020</end_time> <value>12.4</value> <measure>percent</measure> </row>
+<row _id="row 6">
+<figure>3a</figure> <setting>ED</setting> <indicator>Total Screenings</indicator> <group>Age</group>
+<subgroup>30-59 Years</subgroup> <time>88</time> <start_time>9/1/2021</start_time> <end_time>9/7/2021</end_time> <value>24</value> <measure>percent</measure> </row>
+<row _id="row 7">
+<figure>3a</figure> <setting>ED</setting> <indicator>Total Screenings</indicator> <group>Age</group>
+<subgroup>60+ Years</subgroup> <time>31</time> <start_time>7/29/2020</start_time> <end_time>8/4/2020</end_time> <value>13</value> <measure>percent</measure> </row> </row> </response>
+
